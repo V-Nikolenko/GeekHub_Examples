@@ -1,0 +1,10 @@
+plugins {
+    id 'java'
+}
+
+allprojects {
+    apply plugin: "java"
+
+    group = "edu.geekhub.example"
+}
+
