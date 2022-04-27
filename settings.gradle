@@ -9,3 +9,8 @@ include '23-Concurrency:2-Working-With-Threads:3-Daemon-Thread'
 include '23-Concurrency:2-Working-With-Threads:4-Join-Thread'
 include '23-Concurrency:2-Working-With-Threads:5-Run-Thread-And-Start-Thread-Difference'
 
+
+include '23-Concurrency:3-Thread-Synchronization:1-Thread-Stack'
+include '23-Concurrency:3-Thread-Synchronization:2-Violate-keyword'
+include '23-Concurrency:3-Thread-Synchronization:3-Synchronized-blocks'
+
