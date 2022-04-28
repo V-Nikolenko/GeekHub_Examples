@@ -2,7 +2,11 @@ package edu.geekhub.example.level.heap.object;
 
 public class CounterRunnable implements Runnable {
 
-    private final CountObject countObject = new CountObject();
+    private final CountObject countObject;
+
+    public CounterRunnable(CountObject countObject) {
+        this.countObject = countObject;
+    }
 
     @Override
     public void run() {

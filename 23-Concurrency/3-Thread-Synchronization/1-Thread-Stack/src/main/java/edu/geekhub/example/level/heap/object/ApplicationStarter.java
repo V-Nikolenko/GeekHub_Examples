@@ -3,7 +3,9 @@ package edu.geekhub.example.level.heap.object;
 public class ApplicationStarter {
 
     public static void main(String[] args) {
-        CounterRunnable counterRunnable = new CounterRunnable();
+        CountObject countObject = new CountObject();
+
+        CounterRunnable counterRunnable = new CounterRunnable(countObject);
 
         Thread firstThread = new Thread(counterRunnable, "FirstThreadName");
         Thread secondThread = new Thread(counterRunnable, "SecondThreadName");
