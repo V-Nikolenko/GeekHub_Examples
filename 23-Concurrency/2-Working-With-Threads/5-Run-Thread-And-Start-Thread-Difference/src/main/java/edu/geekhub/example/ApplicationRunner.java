@@ -1,6 +1,8 @@
 package edu.geekhub.example;
 
-public class ApplicationStarter {
+import static java.lang.String.format;
+
+public class ApplicationRunner {
 
     public static void main(String[] args) {
         Runnable runnable = () -> {
@@ -14,8 +16,8 @@ public class ApplicationStarter {
         Thread threadTwo = new Thread(runnable, "SecondThreadName");
         Thread threadThird = new Thread(runnable, "ThirdThreadName");
 
-        threadOne.start();
-        threadTwo.start();
-        threadThird.start();
+        threadOne.run();
+        threadTwo.run();
+        threadThird.run();
     }
 }
