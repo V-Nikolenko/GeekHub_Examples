@@ -2,6 +2,7 @@ include '23-Concurrency:1-Thread-Creation:1-Extend-Thread-Class'
 include '23-Concurrency:1-Thread-Creation:2-Implement-Runnable-Interface'
 include '23-Concurrency:1-Thread-Creation:3-Implement-Runnable-As-Anonymous-Class'
 include '23-Concurrency:1-Thread-Creation:4-Implement-Runnable-As-Lambda-Expression'
+include '23-Concurrency:1-Thread-Creation:5-Implement-Callable'
 
 include '23-Concurrency:2-Working-With-Threads:1-Start-Multiple-Threads'
 include '23-Concurrency:2-Working-With-Threads:2-Pause-Thread'
