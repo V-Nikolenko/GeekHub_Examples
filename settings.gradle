@@ -18,3 +18,4 @@ include '23-Concurrency:3-Thread-Synchronization:4-Atomic'
 
 include '23-Concurrency:4-Thread-Pool:1-Executor-Service'
 include '23-Concurrency:4-Thread-Pool:2-Schedulers'
+include '23-Concurrency:4-Thread-Pool:3-DeadLock'
